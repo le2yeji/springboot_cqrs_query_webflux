@@ -108,6 +108,12 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.3.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version> <!-- 최신 버전으로 업데이트해야 할 수도 있습니다 -->
+			<scope>provided</scope>
+		</dependency>
 
 		<!-- log4jdbc -->
 		<dependency>
@@ -134,10 +140,10 @@
 		</dependency>
 
 		<!-- Spring Security -->
-		<!--dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency-->
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
